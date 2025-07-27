@@ -106,10 +106,12 @@ timerid=setInterval(() =>{
     time = 0;
     start = false;
     i=0;
-    spans.forEach(span => {
-      span.className = 'default';
-    });
+    // spans.forEach(span => {
+    //   span.className = 'default';
+    // });
     allow = false;
+    let res=document.querySelector('.reset');
+    res.classList.add('active');
     clearInterval(timerid);
   }
 time++;
