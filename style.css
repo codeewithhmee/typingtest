@@ -9,6 +9,7 @@ body{
     background-color: #c7d3e7;
 }
 
+
 .main{
     width: max(50%,500px);
     min-height: 30vh;
@@ -56,6 +57,12 @@ body{
 .reset:hover{
     cursor: pointer;
     transform: scale(1.04);
+}
+.active{
+    background-color: rgb(142, 108, 255);
+    box-shadow: -2px 2px 20px rgb(151, 151, 252);
+    color: white;
+    font-weight: 600;
 }
 @media only screen and (max-width:800px){
     body{
